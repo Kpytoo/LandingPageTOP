@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -5,7 +9,10 @@ body {
     flex-direction: column;
 }
 
+/*HEADER*/
 .header {
+    padding:15px;
+    margin:0;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -14,9 +21,120 @@ body {
 }
 
 h3 {
-    font-family: Roboto;
+    padding:0;
+    margin:0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    padding:0;
+    margin:0;
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*INTRODUCTION*/
+.introduction {
+    padding: 75px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    opacity: 0.5;
+}
+
+.description {
+    padding:0;
+    margin:0;
+}
+
+.description .head {
+    padding:0;
+    margin:0;
+    width: 400px;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
+.description .para {
+    padding:0;
+    margin:0;
+    width: 450px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.description .button{
+    padding: 3px 20px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+/*INFORMATION*/
+.information {
+    border-style: groove;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.information .head {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+
+.information .boxes {
+    padding:0;
+    margin:0;
+    display:flex;
+    gap: 50px;
+    
+}
+
+.information .boxes .box-and-subtext {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.information .boxes .box-and-subtext .box{
+    padding:0;
+    margin:0;
+    border-style: solid;
+    width: 175px;
+    height: 175px;
+    border-radius: 25px;
+    border-color: #3882f6;
+}
+
+.information .boxes .box-and-subtext .subtext {
+    padding-top:10px;
+    margin:0;
+    width: 175px;
+    text-align: center;
+    font-size: 18px;
+    color:#4e4e4e;
+}
