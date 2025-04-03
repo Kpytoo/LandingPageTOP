@@ -93,7 +93,6 @@ li {
 
 /*INFORMATION*/
 .information {
-    border-style: groove;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -138,3 +137,96 @@ li {
     font-size: 18px;
     color:#4e4e4e;
 }
+
+/*QUOTE*/
+.quote-box {
+    padding: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box .quote {
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-box .quote .para1 {
+    padding:0;
+    margin:0;
+    font-size: 36px;
+    width:775px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-box .quote .para2 {
+    padding:0;
+    margin:0;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/*SIGNUP*/
+.signup {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup .blue-container {
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 175px;
+}
+
+.signup .blue-container .text .head {
+    padding:0;
+    margin:0;
+    color: white;
+    font-size: 20px;
+}
+
+.signup .blue-container .text .para {
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+.signup .blue-container .button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    border-color: white;
+    border-style: groove;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding:25px;
+    margin:0;
+}
+
+.footer .para {
+    padding:0;
+    margin:0;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+
